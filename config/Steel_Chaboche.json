@@ -1,0 +1,42 @@
+{
+  "calibration_info": {
+    "model": "CHABOCHE",
+    "m_values": null,
+    "mu_values": null,
+    "total_runs": 60,
+    "best_run_idx": 49,
+    "timestamp": "2026-02-05 14:42:35"
+  },
+  "material_properties": {
+    "E_MPa": 209682.20326135893,
+    "sigy0_MPa": 490.83513056753026
+  },
+  "calibrated_parameters": {
+    "Q_MPa": -303.4144378881462,
+    "b": 264.9920923340736,
+    "C_MPa": [
+      747794.2632268645,
+      123812.50200817687,
+      42369.83844779836,
+      15749.988763877373
+    ],
+    "gamma": [
+      3625.6565796850036,
+      704.7609969366994,
+      113.26587893888235,
+      34.91717787064945
+    ]
+  },
+  "calibration_metrics": {
+    "total_cost": 308062.1605682005,
+    "cycle_rmse_MPa": 44.148360624042716,
+    "cycle_max_error_MPa": 64.10028024690014,
+    "mono_rmse_MPa": 47.25933914549774,
+    "mono_max_error_MPa": 118.97586289265575
+  },
+  "data_files": {
+    "monotonic_csv": "calibration_fit_final_monotonic.csv",
+    "cycle_csv": "calibration_fit_final_cycle.csv",
+    "plot_png": "calibration_fit_final.png"
+  }
+}

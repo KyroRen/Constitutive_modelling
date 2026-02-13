@@ -1,0 +1,27 @@
+# Cross-platform line ending handling
+* text=auto eol=lf
+
+# Ensure shell scripts use LF
+*.sh text eol=lf
+
+# Python files should use LF
+*.py text eol=lf
+
+# JSON files should use LF
+*.json text eol=lf
+
+# Markdown files should use LF
+*.md text eol=lf
+
+# Config files
+*.toml text eol=lf
+*.txt text eol=lf
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.pyc binary
+*.pyo binary
+*.egg binary

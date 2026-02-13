@@ -1,0 +1,47 @@
+{
+  "calibration_info": {
+    "model": "OWII",
+    "m_values": [
+      10.0,
+      10.0,
+      10.0,
+      10.0
+    ],
+    "mu_values": null,
+    "total_runs": 60,
+    "best_run_idx": 43,
+    "timestamp": "2026-02-05 16:59:53"
+  },
+  "material_properties": {
+    "E_MPa": 209682.20326135893,
+    "sigy0_MPa": 490.83513056753026
+  },
+  "calibrated_parameters": {
+    "Q_MPa": -300.866380541903,
+    "b": 252.2271724990234,
+    "C_MPa": [
+      475720.82412451954,
+      61186.858232668295,
+      26135.27518989054,
+      10077.64566329157
+    ],
+    "gamma": [
+      1656.389954327341,
+      382.0452605633292,
+      92.40558688483443,
+      22.325831554049035
+    ]
+  },
+  "calibration_metrics": {
+    "total_cost": 1174507.0049501369,
+    "cycle_rmse_MPa": 66.42944451828436,
+    "cycle_max_error_MPa": 126.4101063493206,
+    "mono_rmse_MPa": 56.50004510941336,
+    "mono_max_error_MPa": 132.57699304213986
+  },
+  "data_files": {
+    "monotonic_csv": "calibration_fit_final_monotonic.csv",
+    "cycle_csv": "calibration_fit_final_cycle.csv",
+    "plot_png": "calibration_fit_final.png"
+  }
+}
