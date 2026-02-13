@@ -60,8 +60,8 @@ python tests/test_fully_implicit_owii_uni_vs_multi.py
 
 ## Supported Models
 
-- **Chaboche**: Linear kinematic hardening
-- **Ohno-Wang II**: Nonlinear kinematic hardening with saturation
+- **Chaboche**: Nonlinear kinematic hardening with linear recovery term
+- **Ohno-Wang II**: Nonlinear kinematic hardening with saturation in nonlinear recovery term
 - **Abdel-Karim-Ohno (AKO)**: Multi-surface with Macaulay bracket
 - **Kang**: Similar to AKO, no Macaulay bracket
 
